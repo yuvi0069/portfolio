@@ -1,0 +1,289 @@
+body{
+    margin: 0%;
+    background-image: url("./images/background_img.jfif");
+   
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    z-index: 0;
+}
+
+nav{
+    display: flex;
+    align-content: flex-start;
+    justify-content: space-between;
+    position: fixed;
+    padding: 0%;
+   background: url("./images/background_img.jfif");
+   background-size: cover;
+    z-index: 1000;
+    top: 0;
+width: 100%;
+    overflow: hidden;
+}
+
+nav h1{
+    margin: 0;
+    padding: 20px;
+    margin-left:100px ;
+   
+    
+    font-size: 35px;
+    font-weight: 4000;
+    color: aliceblue;
+}
+nav .Links{
+    display: flex;
+   margin: 0%;
+   padding: 0%;
+}
+nav a{
+    margin: 0;
+    padding: 20px;
+    padding-bottom: 0;
+    text-decoration: none;
+    font-weight: 0;
+    color: aliceblue;
+    font-size: 25px;
+}
+nav a:hover{
+    color: aqua;
+}
+.home1{
+    display: flex;
+    justify-content: space-between;
+    margin: 0%;
+    animation:move 4s;
+}
+@keyframes move {
+    0%{
+transform:translateX(-100%);
+}
+100%{
+transform:translateX(00%)
+}
+}
+.home{
+    width: 100%;
+    height: 100%;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.home h1,h2{
+    color: aliceblue;
+    margin-left: 20px;
+}
+.home h1{
+    font-size:50px
+}
+.home h2{
+    font-size:30px
+}
+.home button{
+    margin-left: 20px;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: larger;
+    background-color: aqua;
+}
+.home button:hover{
+    background:none;
+    color: aliceblue;
+}
+.home1 img{
+    width:400px;
+    padding: 0%;
+    margin-top: 100px;
+    margin-right: 100px;
+    background: none;
+    border: 0px;
+  
+
+}
+.home .icons{
+margin-left: 20px;
+margin-top: 10px;
+font-size: 20px;
+background: none;
+
+text-decoration: none;
+}
+.icons a{
+padding: 10px;
+color: aqua;
+}
+.icons a:hover{
+padding: 10px;
+color:wheat;
+}
+html {
+scroll-behavior: smooth;
+}
+.About{
+  margin-top: 140px;
+          padding: 20px;
+      
+}
+
+
+.About h1{
+      color: aliceblue;
+      text-align: center;
+      font-size: 40px;
+
+  }
+  .About p{
+    padding: 10px;
+    font-size: 50px;
+    font-weight: bold;
+  }
+  
+#container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+ 
+}
+#img_container{
+  border:5px solid red;
+;
+  height: 400px;
+  width:400px;
+}
+#img_container img{
+ width: 100%;
+ height: 100%;
+}
+#about_container{
+  border-top:5px solid red;
+  border-bottom:5px solid red;
+  border-right:5px solid red;
+  height: 400px;
+  width:400px;
+
+}
+#about_container p{
+  color: aliceblue;
+  font-size: 19px;
+}
+.Projects h1{
+color: aliceblue;
+      text-align: center;
+      font-size: 40px;
+}
+
+.Yuv{
+    margin-left: 150px;
+}
+
+
+.card {
+    border-radius: 10px;
+     background-color: rgba(255, 251, 251, 0.342);
+    width: 300px;
+    height: 300px;
+     text-align: center;
+        margin: 10px;
+        padding: 10px;
+      
+    }
+    
+    
+.card:hover{
+background-color: rgba(0, 15, 15, 0.418)
+}
+.card i{
+color: red;font-size: 50px;text-align: center;display: inline-block;padding: 0%;
+margin: 10%
+
+}
+
+
+  .card p {
+        width: 100%;
+        color: aliceblue;
+        margin: 0;
+    }
+.Skills h1{
+color: aliceblue;
+      text-align: center;
+      font-size: 40px;
+}
+.SS{
+margin-left: 150px;
+}
+.D{
+width: 35%;
+height: 60%;
+border-radius: 10px;
+box-shadow: 0px 0px 10px 10px rgb(2, 139, 133);
+padding: 50px;
+margin-right: 150px;
+
+text-align: center;
+background-image: url("data:image/jpeg;base64,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");
+background-size: cover;
+}
+form label{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 25px;
+    text-align: left;
+    font-weight: bold;
+}
+form input{
+   width: 100%;
+   height: 100%;
+   padding: 10px;
+   border-radius:10px ;
+   font-weight: bold;
+}
+form input:hover{
+   background-color: rgb(170, 234, 243);
+}
+form button{
+   background-color: rgb(8, 31, 37);
+   width: 100%;
+   height: 30%;
+
+   margin:10px;
+   font-weight: bold;
+   color: white;
+}
+form button:hover{
+   background-color: rgb(0, 172, 77);
+  }
+/* .D{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+} */
+  .Contact_page #info h2{
+    color: aliceblue;
+   
+}
+.Contact_page #info{
+    margin-top: 150px;
+    margin-left: 20px;
+   
+}
+#heading{
+    color: aliceblue;
+          text-align: center;
+          font-size: 40px;
+    }
+.Contact_page{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+
+}
+  footer{
+    margin-top: 50px;
+  background-color: gray;width: 100%;
+height: 100%;
+text-align: center;
+  }
